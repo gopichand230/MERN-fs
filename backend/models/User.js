@@ -20,4 +20,4 @@ const User=mongoose.Schema({
 
 }
 )
-module.exports
+module.exports= mongoose.model("User",User)

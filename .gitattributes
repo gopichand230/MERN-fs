@@ -1,0 +1,12 @@
+# Normalize line endings
+* text=auto
+
+# Ensure JSON files use LF in the repository
+*.json text eol=lf
+
+# Prevent conversion for binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
